@@ -4,7 +4,7 @@ Survey-weighted OLS analysis of maternal literacy and child mortality in Peru us
 
 Completed for *Population and Development* at the University of Washington.
 
-📄 **[Read the full report (PDF)](Peru_Final_Report.pdf)**
+**[Read the full report (PDF)](Peru_Final_Report.pdf)**
 
 ## Question
 Is maternal literacy associated with lower child mortality in Peru, and does
