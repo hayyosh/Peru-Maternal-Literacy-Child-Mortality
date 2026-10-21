@@ -1,6 +1,10 @@
 # Peru-Maternal-Literacy-Child-Mortality
+
 Survey-weighted OLS analysis of maternal literacy and child mortality in Peru using 2017 IPUMS census microdata (R).
 
+Completed for *Population and Development* at the University of Washington.
+
+📄 **[Read the full report (PDF)](Peru_Final_Report.pdf)**
 
 ## Question
 Is maternal literacy associated with lower child mortality in Peru, and does
@@ -28,7 +32,7 @@ is a useful setting to test whether the pattern holds.
 - **Weights:** Person weights (PERWT) so estimates are nationally
   representative.
 
-  ## Method
+## Method
 Survey-weighted OLS regression:
 
 `chmortr = β0 + β1·lit + β2·rural + β3·ownership + β4·autos + β5·internet + β6·age + ε`
@@ -40,6 +44,7 @@ sign of β6 is ambiguous: older mothers may have more experience and
 resources, but their children were born in earlier periods with worse
 healthcare.
 
+## Key Findings
 - Maternal literacy was associated with a **4.4-point lower** child mortality
   rate (p < 0.01).
 - Rural households had a **1.5-point higher** mortality rate.
